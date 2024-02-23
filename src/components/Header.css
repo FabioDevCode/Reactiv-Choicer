@@ -1,0 +1,17 @@
+.header {
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 10px;
+}
+
+.title {
+    text-align: left;
+    font-size: 40px;
+}

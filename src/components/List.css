@@ -1,0 +1,131 @@
+.list {
+    width: max-content;
+    margin: 25px auto;
+}
+
+.letsgo {
+    cursor: pointer;
+    background-color: #149ECA;
+    color: #F3F3F3;
+    border: none;
+    font-family: "Righteous", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    height: 50px;
+    width: 310px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%),
+    radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 89.79%, rgba(255, 255, 255, 0) 100%);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.letsgo:active {
+    transform: scale(.97);
+}
+
+.form {
+    position: relative;
+    height: 50px;
+    width: 310px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.form-input {
+    position: relative;
+    background-color: #F3F3F3;
+    color: #000;
+    font-size: 1em;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 85px;
+}
+
+.form-input:focus {
+    box-shadow: 0 0 8px 3px rgba(20, 158, 202, .7);
+    border: 1px solid #149ECA;
+}
+
+.form-btn {
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    color: #F3F3F3;
+    background-color: #149ECA;
+    font-size: 1.4em;
+    height: 50px;
+    width: 75px;
+    border-radius: 10px;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%),
+    radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 89.79%, rgba(255, 255, 255, 0) 100%);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.form-btn:active {
+    transform: scale(.90);
+}
+
+.proposition {
+    position: relative;
+    background-color: #273a4d;
+    height: 50px;
+    width: 310px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6px 0 22px;
+    margin-bottom: 5px;
+}
+
+.proposition button {
+    cursor: pointer;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.proposition button img {
+    height: 60%;
+}
+
+.proposition button:active {
+    transform: scale(.90);
+}
+
+.reset_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 25px auto;
+    height: 50px;
+    width: 155px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color: crimson;
+    color: #F3F3F3;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%),
+    radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 89.79%, rgba(255, 255, 255, 0) 100%);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.reset_list:active {
+    transform: scale(.97);
+}
